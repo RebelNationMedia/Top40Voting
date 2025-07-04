@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billboard Hot 100 Top 20 - Chart with Voting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">Billboard Hot 100</h1>
+            <p class="header__subtitle">Top 20 Songs</p>
+            <div class="header__info">
+                <div class="chart-date">Chart Date: <span id="chart-date">July 5, 2025</span></div>
+                <div class="next-update">Next Update: <span id="next-update">July 13, 2025 12:01 AM</span></div>
+                <div class="countdown" id="countdown">Time until next update: <span id="countdown-time">--:--:--</span></div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="chart-grid" id="chart-grid">
+                <!-- Songs will be populated by JavaScript -->
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Vote for your favorite songs! Results update in real-time.</p>
+            <p>Charts update automatically every Sunday at 12:01 AM</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
